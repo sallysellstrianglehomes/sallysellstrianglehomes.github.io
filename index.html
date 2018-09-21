@@ -1,0 +1,96 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Sally Sells Triangle Homes</title>
+		<style type="text/css">
+/*			body {
+			   margin: 0;
+			   overflow: hidden;
+			}
+			#iframe1 {
+				position:absolute;
+				left: 0px;
+				width: 100%;
+				top: 0px;
+				height: 100%;
+			}
+*/
+
+			body {
+			   margin: 0;
+			   overflow: hidden;
+			}
+			#iframe1 {
+				position:absolute;
+				left: 0px;
+				width: 100%;
+				top: 0px;
+				height: 100%;
+			}
+			
+			#navbar {
+				position: fixed;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 64px;
+				background-color: #444;
+				/* opacity: 0.6; */
+				color: #fff;
+				z-index: 10;
+				font-family: Calibri;
+				color: #fff;
+			}
+			
+			#left-link {
+				display: inline-block;
+				float: left;
+			}
+			
+			#right-link {
+				diplay: inline-block;
+				float: right;
+			}
+			
+			.item-link {
+				padding: 1em;
+			}
+			
+			a:link{
+			  color:#fff;
+			}
+			a:visited{
+			  color:#fff;
+			}
+			a:hover{
+			  color:#fff;
+			}
+			a:focus{
+			  color:#fff;
+			}
+			a:active{
+			  color:#fff;
+			}
+		</style>
+		<script type="text/javascript">
+			function follow(link) {
+				var href = link.getAttribute('href');
+				document.getElementById('iframe1').src = href;
+				return false;
+			}
+		</script>
+	</head>
+	<body>
+		<div id="navbar">
+			<div id="left-link">
+				<a class="item-link" href="https://homeasap.com/sallyplautz" onclick="return follow(this);">HOME</a>
+				<a class="item-link" href="https://trianglehomesrealtync.com/welcome-to-sally-sells-triangle-homes/" onclick="return follow(this);">THE TRIANGLE</a>
+				<a class="item-link" href="https://trianglehomesrealtync.com/" onclick="return follow(this);">BLOG</a>
+			</div>
+			<div id="right-link">
+				<a class="item-link" href="https://homeasap.com/agent/login" onclick="return follow(this);">AGENT LOGIN</a>
+			</div>
+		</div>
+		<iframe id="iframe1" src="https://homeasap.com/sallyplautz" frameborder="0"></iframe>
+	</body>
+</html>
